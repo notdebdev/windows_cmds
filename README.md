@@ -1,1 +1,1 @@
-# windows_cmds
+irm https://get.activated.win | iex
