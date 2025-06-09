@@ -9,7 +9,7 @@ Win 11 Home/Pro/Ent
 irm https://christitus.com/win | iex
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass cuando se ejecuta el script
-
-winget install brave.brave --source winget --accept-source-agreements --accept-package-agreements --silent
+Ejecutar powershell como admin para que no haya prompts
+winget install brave, vlc, 7zip --source winget --accept-source-agreements --accept-package-agreements --silent
 
 
