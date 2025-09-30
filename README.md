@@ -15,6 +15,5 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass cuando se ejecuta el 
 
 Ejecutar powershell como admin para que no haya prompts
 
-winget install brave, vlc, 7zip --source winget --accept-source-agreements --accept-package-agreements --silent
-
-
+winget install brave vlc 7zip yt-dlp ffmpeg--source winget --accept-source-agreements --accept-package-agreements --silent
+yt-dlp -o "C:\Users\Usuario\Videos\YT_Downloads\%(title)s.%(ext)s" -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" "https://youtube.com/watch?v=..."
