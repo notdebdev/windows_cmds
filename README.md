@@ -5,6 +5,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass cuando se ejecuta el 
 
 Ejecutar powershell como admin para que no haya prompts
 Add-AppxPackage -Path "C:\Ruta\Al\Archivo.msixbundle"
+winget source update
 
 winget install Discord.Discord OBSProject.OBSStudio Valve.Steam BraveSoftware.Brave VideoLAN.VLC 7zip.7zip GOG.Galaxy yt-dlp.yt-dlp ffmpeg Git.Git Microsoft.VCRedist.2015+.x64 --source winget --accept-source-agreements --accept-package-agreements --silent
 
