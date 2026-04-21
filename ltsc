@@ -6,7 +6,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass cuando se ejecuta el 
 Ejecutar powershell como admin para que no haya prompts
 Add-AppxPackage -Path "C:\Ruta\Al\Archivo.msixbundle"
 winget source update
-
-winget install blizzard.battlenet Discord.Discord OBSProject.OBSStudio Valve.Steam BraveSoftware.Brave VideoLAN.VLC 7zip.7zip GOG.Galaxy yt-dlp.yt-dlp ffmpeg Git.Git Microsoft.VCRedist.2015+.x64 --source winget --accept-source-agreements --accept-package-agreements --silent
+winget install abbodi1406.vcredist
+winget install blizzard.battlenet Discord.Discord OBSProject.OBSStudio Valve.Steam BraveSoftware.Brave VideoLAN.VLC 7zip.7zip GOG.Galaxy yt-dlp.yt-dlp ffmpeg Microsoft.VCRedist.2015+.x64 Microsoft.DirectX --source winget --accept-source-agreements --accept-package-agreements --silent
 para battle.net la ruta es C:\Program Files (x86)\Battle.net
 yt-dlp -o "C:\Users%USERNAME%\Videos\YT_Downloads%(title)s.%(ext)s" -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" "https://youtube.com/watch?v=..."
